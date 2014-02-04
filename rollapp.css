@@ -1,45 +1,55 @@
 body {
     background:#ffffff;
     color:#000000;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 12pt;
-    margin:1ex 2em 0ex 1em;
+    font-family:"Lucida Console", Monaco, monospace;
+    font-size:12pt;
+    margin:2px;
     overflow-x:hidden;
-    text-align: left;
+    text-align:center;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 }
 button {
     border:0px;
     border-radius:0.25em;
     background:#cccccc;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family:Tahoma, Geneva, sans-serif;
     font-size: 1.3em;
     height:1.8em;
     outline:none;
-    text-align: center;
+    text-align:center;
     text-decoration:none;
-    width: 5em;
+    width:5em;
 }
 button::-moz-focus-inner {
-  border:0px;
+    border:0px;
 }
 button:hover {
     background:#dddddd;
 }
-div {
-    padding:0.5ex;
-    white-space:nowrap;
+form {
+    margin:2px;
+    padding:2px;
 }
 .roll_result {
+    display:inline-block;
+    line-height:1.5em;
     overflow:hidden;
+    text-align:left;
     text-overflow:'';
+    vertical-align:middle;
+    white-space:nowrap;
+    width:11em;
 }
 .result0 {
     font-weight:bold;
-    font-size:1.6em;
+    font-size:1.9em;
 }
 .result1 {
-    font-size:1.4em;
+    font-size:1.6em;
 }
 .result2 {
-    font-size:1.2em;
+    font-size:1.3em;
 }

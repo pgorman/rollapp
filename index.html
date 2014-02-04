@@ -2,39 +2,39 @@
 <html lang="en-us">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=320, user-scalable=no">
+<meta name="viewport" content="initial-scale=1.0, zoom=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height, target-densitydpi=device-dpi">
 <title>Dice Roller (devilghost.com)</title>
 <link rel="stylesheet" type="text/css" href="rollapp.css">
 </head>
 <body>
 
-<div id='d4'>
-    <button type="button" onclick="d4.roll()">d4</button> <span class="roll_result" id="d4results"></span>
-</div>
+<form onSubmit="d4.roll(); return false;">
+    <button type="submit">d4</button> <span class="roll_result" id="d4results"></span>
+</form>
 
-<div id='d6'>
-    <button type="button" onclick="d6.roll()">d6</button> <span class="roll_result" id="d6results"></span>
-</div>
+<form onSubmit="d6.roll(); return false;">
+    <button type="submit">d6</button> <span class="roll_result" id="d6results"></span>
+</form>
 
-<div id='d8'>
-    <button type="button" onclick="d8.roll()">d8</button> <span class="roll_result" id="d8results"></span>
-</div>
+<form onSubmit="d8.roll(); return false;">
+    <button type="submit">d8</button> <span class="roll_result" id="d8results"></span>
+</form>
 
-<div id='d10'>
-    <button type="button" onclick="d10.roll()">d10</button> <span class="roll_result" id="d10results"></span>
-</div>
+<form onSubmit="d10.roll(); return false;">
+    <button type="submit">d10</button> <span class="roll_result" id="d10results"></span>
+</form>
 
-<div id='d12'>
-    <button type="button" onclick="d12.roll()">d12</button> <span class="roll_result" id="d12results"></span>
-</div>
+<form onSubmit="d12.roll(); return false;">
+    <button type="submit">d12</button> <span class="roll_result" id="d12results"></span>
+</form>
 
-<div id='d20'>
-    <button type="button" onclick="d20.roll()">d20</button> <span class="roll_result" id="d20results"></span>
-</div>
+<form onSubmit="d20.roll(); return false;">
+    <button type="submit">d20</button> <span class="roll_result" id="d20results"></span>
+</form>
 
-<div id='d100'>
-    <button type="button" onclick="d100.roll()">d100</button> <span class="roll_result" id="d100results"></span>
-</div>
+<form onSubmit="d100.roll(); return false;">
+    <button type="submit">d100</button> <span class="roll_result" id="d100results"></span>
+</form>
 
 <script src="rollapp.js"></script>
 
