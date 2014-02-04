@@ -1,7 +1,7 @@
 body {
     background:#333;
     color:#eee;
-    font-family:Tahoma, Geneva, sans-serif;
+    font-family:"Lucida Console", Monaco, monospace;
     font-size:12pt;
     margin:2px;
     overflow:hidden;
@@ -34,7 +34,7 @@ div {
 div b {
     color:#222;
     display:inline-block;
-    font-family:"Lucida Console", Monaco, monospace;
+    font-family:Tahoma, Geneva, sans-serif;
     font-size:1.3em;
     line-height:2em;
     text-align: center;
