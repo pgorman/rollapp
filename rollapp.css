@@ -15,6 +15,7 @@ a {
     color:#eee;
     font-weight:bold;
     margin-right:1em;
+    outline:0;
     text-decoration:none;
 }
 p {
