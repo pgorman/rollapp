@@ -30,11 +30,7 @@ div {
     white-space:nowrap;
 }
 .roll_result {
-    display:inline-block;
-    height:1.8em;
-    max-width:85%;
     overflow:hidden;
-    text-align:left;
     text-overflow:'';
 }
 .result0 {
