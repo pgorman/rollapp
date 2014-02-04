@@ -18,14 +18,3 @@ function roll() {
     span.innerHTML = Math.floor(Math.random() * sides + 1);
     this.insertBefore(span, this.firstChild.nextSibling);
 }
-
-function moreDice() {
-    var sections = document.getElementsByTagName('section');
-    for (var i = 0; i < sections.length; i++) {
-        if (sections[i].style.display == 'none') {
-            sections[i].style.display = 'block';
-        } else {
-            sections[i].style.display = 'none';
-        }
-    }
-}

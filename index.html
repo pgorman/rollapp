@@ -18,7 +18,7 @@
 <div data-sides="100"><b>d100</b></div>
 </section>
 
-<section style="display:none;">
+<section>
 <div data-sides="3"><b>d3</b></div>
 <div data-sides="5"><b>d5</b></div>
 <div data-sides="7"><b>d7</b></div>
@@ -28,7 +28,11 @@
 <div data-sides="30"><b>d30</b></div>
 </section>
 
-<p style="font-size:1.5em"><a href="#" onclick="moreDice();return false;">&#9861; &#8605;</a></p>
+<p style="font-size:1.5em">
+    <a href="#" onclick="document.body.classList.toggle('more');">
+        &#9861; &#8605;
+    </a>
+</p>
 
 <script src="rollapp.js"></script>
 
