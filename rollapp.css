@@ -1,0 +1,46 @@
+body {
+    background:#ffffff;
+    color:#000000;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 12pt;
+    text-align: center;
+}
+button {
+    border:0px;
+    border-radius:0.25em;
+    background:#cccccc;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.3em;
+    height:1.5em;
+    outline:none;
+    text-align: center;
+    text-decoration:none;
+    width: 5em;
+}
+button::-moz-focus-inner {
+  border:0px;
+}
+button:hover {
+    background:#dddddd;
+}
+div {
+    padding-bottom:1ex;
+}
+.roll_result {
+    display:inline-block;
+    height:1.5em;
+    overflow:hidden;
+    text-align:left;
+    text-overflow:'';
+    width: 14em;
+}
+.result0 {
+    font-weight:bold;
+    font-size:1.6em;
+}
+.result1 {
+    font-size:1.4em;
+}
+.result2 {
+    font-size:1.2em;
+}
