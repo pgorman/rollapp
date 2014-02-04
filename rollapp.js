@@ -3,7 +3,7 @@
 // http://devilghost.com/roll
 
 var dice = {
-    historyLength: 12,
+    historyLength: 48,
     history: [],
     sides: 0,
     toHtml: function () {
