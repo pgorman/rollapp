@@ -13,6 +13,8 @@ body {
 }
 a {
     color:#eee;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:1.4em;
     font-weight:bold;
     margin-right:1em;
     outline:0;
@@ -21,7 +23,7 @@ a {
 p {
     margin:0;
     text-align:center;
-    width:6em;
+    width:9em;
 }
 div {
     line-height:2em;
